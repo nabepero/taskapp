@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD679F4F1E1A33FF0019D4A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD679F4E1E1A33FF0019D4A0 /* AppDelegate.swift */; };
+		FD679F511E1A33FF0019D4A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD679F501E1A33FF0019D4A0 /* ViewController.swift */; };
+		FD679F541E1A33FF0019D4A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD679F521E1A33FF0019D4A0 /* Main.storyboard */; };
+		FD679F561E1A33FF0019D4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD679F551E1A33FF0019D4A0 /* Assets.xcassets */; };
+		FD679F591E1A33FF0019D4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD679F571E1A33FF0019D4A0 /* LaunchScreen.storyboard */; };
+		FD679F641E1A33FF0019D4A0 /* taskappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD679F631E1A33FF0019D4A0 /* taskappTests.swift */; };
+		FD679F6F1E1A33FF0019D4A0 /* taskappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD679F6E1E1A33FF0019D4A0 /* taskappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD679F601E1A33FF0019D4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD679F431E1A33FF0019D4A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD679F4A1E1A33FF0019D4A0;
+			remoteInfo = taskapp;
+		};
+		FD679F6B1E1A33FF0019D4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD679F431E1A33FF0019D4A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD679F4A1E1A33FF0019D4A0;
+			remoteInfo = taskapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD679F4B1E1A33FF0019D4A0 /* taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD679F4E1E1A33FF0019D4A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD679F501E1A33FF0019D4A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD679F531E1A33FF0019D4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD679F551E1A33FF0019D4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD679F581E1A33FF0019D4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD679F5A1E1A33FF0019D4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD679F5F1E1A33FF0019D4A0 /* taskappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taskappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD679F631E1A33FF0019D4A0 /* taskappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskappTests.swift; sourceTree = "<group>"; };
+		FD679F651E1A33FF0019D4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD679F6A1E1A33FF0019D4A0 /* taskappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taskappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD679F6E1E1A33FF0019D4A0 /* taskappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskappUITests.swift; sourceTree = "<group>"; };
+		FD679F701E1A33FF0019D4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD679F481E1A33FF0019D4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD679F5C1E1A33FF0019D4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD679F671E1A33FF0019D4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD679F421E1A33FF0019D4A0 = {
+			isa = PBXGroup;
+			children = (
+				FD679F4D1E1A33FF0019D4A0 /* taskapp */,
+				FD679F621E1A33FF0019D4A0 /* taskappTests */,
+				FD679F6D1E1A33FF0019D4A0 /* taskappUITests */,
+				FD679F4C1E1A33FF0019D4A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD679F4C1E1A33FF0019D4A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD679F4B1E1A33FF0019D4A0 /* taskapp.app */,
+				FD679F5F1E1A33FF0019D4A0 /* taskappTests.xctest */,
+				FD679F6A1E1A33FF0019D4A0 /* taskappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD679F4D1E1A33FF0019D4A0 /* taskapp */ = {
+			isa = PBXGroup;
+			children = (
+				FD679F4E1E1A33FF0019D4A0 /* AppDelegate.swift */,
+				FD679F501E1A33FF0019D4A0 /* ViewController.swift */,
+				FD679F521E1A33FF0019D4A0 /* Main.storyboard */,
+				FD679F551E1A33FF0019D4A0 /* Assets.xcassets */,
+				FD679F571E1A33FF0019D4A0 /* LaunchScreen.storyboard */,
+				FD679F5A1E1A33FF0019D4A0 /* Info.plist */,
+			);
+			path = taskapp;
+			sourceTree = "<group>";
+		};
+		FD679F621E1A33FF0019D4A0 /* taskappTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD679F631E1A33FF0019D4A0 /* taskappTests.swift */,
+				FD679F651E1A33FF0019D4A0 /* Info.plist */,
+			);
+			path = taskappTests;
+			sourceTree = "<group>";
+		};
+		FD679F6D1E1A33FF0019D4A0 /* taskappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD679F6E1E1A33FF0019D4A0 /* taskappUITests.swift */,
+				FD679F701E1A33FF0019D4A0 /* Info.plist */,
+			);
+			path = taskappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD679F4A1E1A33FF0019D4A0 /* taskapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD679F731E1A33FF0019D4A0 /* Build configuration list for PBXNativeTarget "taskapp" */;
+			buildPhases = (
+				FD679F471E1A33FF0019D4A0 /* Sources */,
+				FD679F481E1A33FF0019D4A0 /* Frameworks */,
+				FD679F491E1A33FF0019D4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taskapp;
+			productName = taskapp;
+			productReference = FD679F4B1E1A33FF0019D4A0 /* taskapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD679F5E1E1A33FF0019D4A0 /* taskappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD679F761E1A33FF0019D4A0 /* Build configuration list for PBXNativeTarget "taskappTests" */;
+			buildPhases = (
+				FD679F5B1E1A33FF0019D4A0 /* Sources */,
+				FD679F5C1E1A33FF0019D4A0 /* Frameworks */,
+				FD679F5D1E1A33FF0019D4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD679F611E1A33FF0019D4A0 /* PBXTargetDependency */,
+			);
+			name = taskappTests;
+			productName = taskappTests;
+			productReference = FD679F5F1E1A33FF0019D4A0 /* taskappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD679F691E1A33FF0019D4A0 /* taskappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD679F791E1A33FF0019D4A0 /* Build configuration list for PBXNativeTarget "taskappUITests" */;
+			buildPhases = (
+				FD679F661E1A33FF0019D4A0 /* Sources */,
+				FD679F671E1A33FF0019D4A0 /* Frameworks */,
+				FD679F681E1A33FF0019D4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD679F6C1E1A33FF0019D4A0 /* PBXTargetDependency */,
+			);
+			name = taskappUITests;
+			productName = taskappUITests;
+			productReference = FD679F6A1E1A33FF0019D4A0 /* taskappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD679F431E1A33FF0019D4A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hiroki Watanabe";
+				TargetAttributes = {
+					FD679F4A1E1A33FF0019D4A0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					FD679F5E1E1A33FF0019D4A0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD679F4A1E1A33FF0019D4A0;
+					};
+					FD679F691E1A33FF0019D4A0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD679F4A1E1A33FF0019D4A0;
+					};
+				};
+			};
+			buildConfigurationList = FD679F461E1A33FF0019D4A0 /* Build configuration list for PBXProject "taskapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD679F421E1A33FF0019D4A0;
+			productRefGroup = FD679F4C1E1A33FF0019D4A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD679F4A1E1A33FF0019D4A0 /* taskapp */,
+				FD679F5E1E1A33FF0019D4A0 /* taskappTests */,
+				FD679F691E1A33FF0019D4A0 /* taskappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD679F491E1A33FF0019D4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD679F591E1A33FF0019D4A0 /* LaunchScreen.storyboard in Resources */,
+				FD679F561E1A33FF0019D4A0 /* Assets.xcassets in Resources */,
+				FD679F541E1A33FF0019D4A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD679F5D1E1A33FF0019D4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD679F681E1A33FF0019D4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD679F471E1A33FF0019D4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD679F511E1A33FF0019D4A0 /* ViewController.swift in Sources */,
+				FD679F4F1E1A33FF0019D4A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD679F5B1E1A33FF0019D4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD679F641E1A33FF0019D4A0 /* taskappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD679F661E1A33FF0019D4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD679F6F1E1A33FF0019D4A0 /* taskappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD679F611E1A33FF0019D4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD679F4A1E1A33FF0019D4A0 /* taskapp */;
+			targetProxy = FD679F601E1A33FF0019D4A0 /* PBXContainerItemProxy */;
+		};
+		FD679F6C1E1A33FF0019D4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD679F4A1E1A33FF0019D4A0 /* taskapp */;
+			targetProxy = FD679F6B1E1A33FF0019D4A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD679F521E1A33FF0019D4A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD679F531E1A33FF0019D4A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD679F571E1A33FF0019D4A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD679F581E1A33FF0019D4A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD679F711E1A33FF0019D4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD679F721E1A33FF0019D4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD679F741E1A33FF0019D4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taskapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroki.watanabe.taskapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD679F751E1A33FF0019D4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taskapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroki.watanabe.taskapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FD679F771E1A33FF0019D4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = taskappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroki.watanabe.taskappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taskapp.app/taskapp";
+			};
+			name = Debug;
+		};
+		FD679F781E1A33FF0019D4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = taskappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroki.watanabe.taskappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taskapp.app/taskapp";
+			};
+			name = Release;
+		};
+		FD679F7A1E1A33FF0019D4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = taskappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroki.watanabe.taskappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = taskapp;
+			};
+			name = Debug;
+		};
+		FD679F7B1E1A33FF0019D4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = taskappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiroki.watanabe.taskappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = taskapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD679F461E1A33FF0019D4A0 /* Build configuration list for PBXProject "taskapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD679F711E1A33FF0019D4A0 /* Debug */,
+				FD679F721E1A33FF0019D4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD679F731E1A33FF0019D4A0 /* Build configuration list for PBXNativeTarget "taskapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD679F741E1A33FF0019D4A0 /* Debug */,
+				FD679F751E1A33FF0019D4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD679F761E1A33FF0019D4A0 /* Build configuration list for PBXNativeTarget "taskappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD679F771E1A33FF0019D4A0 /* Debug */,
+				FD679F781E1A33FF0019D4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD679F791E1A33FF0019D4A0 /* Build configuration list for PBXNativeTarget "taskappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD679F7A1E1A33FF0019D4A0 /* Debug */,
+				FD679F7B1E1A33FF0019D4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD679F431E1A33FF0019D4A0 /* Project object */;
+}
