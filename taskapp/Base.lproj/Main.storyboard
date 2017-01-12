@@ -35,24 +35,24 @@
                                         <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vsM-P7-acV" id="M17-HO-luq">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k0a-MN-8Qu">
-                                                    <rect key="frame" x="46" y="4" width="34" height="21"/>
+                                                    <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yNd-1Z-Rn5">
-                                                    <rect key="frame" x="46" y="25" width="44" height="15"/>
+                                                    <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Cell" id="rtE-GR-eWi">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="rtE-GR-eWi">
                                                     <rect key="frame" x="15" y="13" width="16" height="16"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
@@ -73,7 +73,7 @@
                     <navigationItem key="navigationItem" id="ekm-Sn-Rag">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="2Tl-Nc-QCv">
                             <connections>
-                                <segue destination="Yxe-ea-kuP" kind="show" id="Sde-7p-8eg"/>
+                                <segue destination="Yxe-ea-kuP" kind="show" identifier="cellSegue" id="Sde-7p-8eg"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -193,9 +193,7 @@
                         <outlet property="category" destination="DUp-a0-ROv" id="Di8-c6-Z7S"/>
                         <outlet property="contentsTextView" destination="bUJ-4C-PQE" id="mv1-cF-Pce"/>
                         <outlet property="dataPicker" destination="0iJ-uC-ThX" id="hRc-EO-Qy9"/>
-                        <outlet property="textField" destination="fO9-JO-ZyR" id="BJ0-xA-JNY"/>
-                        <outlet property="textView" destination="bUJ-4C-PQE" id="Msc-Sg-A7l"/>
-                        <outlet property="titeleTextField" destination="fO9-JO-ZyR" id="W3M-L4-6xs"/>
+                        <outlet property="titeleTextField" destination="fO9-JO-ZyR" id="Fu3-Ap-BL1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OWr-xE-JKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -221,9 +219,6 @@
             <point key="canvasLocation" x="-36" y="792.95352323838085"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Cell" width="16" height="16"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CI1-2H-ely"/>
     </inferredMetricsTieBreakers>

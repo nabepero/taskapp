@@ -22,7 +22,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     //以降の内容をアップデートするとリスト内は自動更新される
     let taskArray = try!Realm().objects(Task.self).sorted(byProperty: "date", ascending: false)
     
+    
+   
+    
+    
+    
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
        
         tableView.delegate = self
@@ -80,6 +87,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         performSegue(withIdentifier: "cellSegue",sender: nil)
+    
     }
     
     // セルが削除が可能なことを伝えるメソッド
@@ -107,12 +115,15 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             let inputViewController:InputViewController = segue.destination as! InputViewController
             
             if segue.identifier == "cellSegue"{
+                print("fooo")
                 
                 let indexPath = self.tableView.indexPathForSelectedRow
                 inputViewController.task = taskArray[indexPath!.row]
                 
 
             }else{
+                
+                print("hoge")
                 
                 let task = Task()
                 task.date = NSDate()

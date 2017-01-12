@@ -13,6 +13,7 @@ import RealmSwift
 
 class InputViewController: UIViewController {
     
+    
     @IBOutlet weak var titeleTextField: UITextField!
     
     @IBOutlet weak var contentsTextView: UITextView!
@@ -24,6 +25,7 @@ class InputViewController: UIViewController {
     var task: Task!
     
     let realm = try!Realm()
+    
     
     
     override func viewDidLoad() {
